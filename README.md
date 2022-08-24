@@ -7,7 +7,7 @@ Once the data was inserted into the database tables I used DBeaver to connect to
 
 I had initially planned a more robust table structure focused on events and how data would pulled from raw tables to make views such as the data provided in the user file like lastLogin and active. I felt it over complicated the situation for this project and would have made too many assumptions on other data not provided and the structure of the data stream. In the end this simplified structure was what I went with focusing on items that would be primary keys. The only id that I didn't generate a table for was cpg_id because the only information included was the variable ref and that was a one to one match with that brand_id.
 
-The answers to the sql queries were based on the best concept I could think of to answer the question with one query and that somewhat worked around the data with most receipts coming from Jan 2021. I avoided the user based questions as most users joined outside 6 months ago and not over a spand of 6 months. 
+The answers to the sql queries were based on the best concept I could think of to answer the question with one query and that somewhat worked around the data with most receipts coming from Jan 2021. I avoided the user based questions as most users joined outside 6 months ago and not over a span of 6 months. 
 
 I addressed some of the data quality issues I found in the communication message and these were unconvered either in the Python jupyter notebook or additional exploration SQL queries.
 
