@@ -9,6 +9,8 @@ I had initially planned a more robust table structure focused on events and how 
 
 The answers to the sql queries were based on the best concept I could think of to answer the question with one query and that somewhat worked around the data with most receipts coming from Jan 2021. I avoided the user based questions as most users joined outside 6 months ago and not over a spand of 6 months. 
 
+I addressed some of the data quality issues I found in the communication message and these were unconvered either in the Python jupyter notebook or additional exploration SQL queries.
+
 I enjoyed the exercise even with my intial confusion over the data structure and look forward to discussing it with the reviewer(s).
 
 
